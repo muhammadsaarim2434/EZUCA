@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-------------- OWL -------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -67,8 +76,10 @@
                         <div class="col-md-6 col-12">
                             <div>
                                 <h1 class="course_title">About Ezuca</h1>
-                                <p class="about_content">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <span class="divider"> | </span> officia deserunt
-                                    mollit anim id est laborum. Sed ut perspiciatis <span class="divider"> | </span> unde omnis iste natus error sit
+                                <p class="about_content">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui <span class="divider"> | </span> officia deserunt
+                                    mollit anim id est laborum. Sed ut perspiciatis <span class="divider"> | </span>
+                                    unde omnis iste natus error sit
                                     voluptatem accusantium.</p>
                             </div>
                             <div class="row">
@@ -103,6 +114,50 @@
                         <div class="col-md-6 col-12 pt-3 ">
                             <div class="about_video">
                                 <img src="/assets/images/video-icon.png.webp" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 my-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-12">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-5 col-12 px-5">
+                            <div class="owl-carousel owl-theme mt-5 ">
+                                <div class="item mx-auto">
+                                    <img src="/assets/images/user-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="item mx-auto">
+                                    <img src="/assets/images/user-2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="item mx-auto">
+                                    <img src="/assets/images/user-3.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="item mx-auto">
+                                    <img src="/assets/images/user-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="item mx-auto">
+                                    <img src="/assets/images/user-2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="owl_content">
+                                <p>Together as teachers, students and universities we can help make this education available
+                                    for everyone.</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="owl_content">
+                                    <h3>Russell Stephens - <span>University in UK</span></h3>
+                                </div>
+                                <div class="owl_icon">
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -256,8 +311,41 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!---------------- OWL -------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            autoplay: false,
+            autoplayTimeout: 2000,
+            stagePadding: 0,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+
+                1000: {
+                    items: 5
+                },
+                1400: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
