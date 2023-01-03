@@ -10,6 +10,10 @@ body{
     display: none;
 }
 
+.divider1 {
+    display: none;
+}
+
 /******************** Hero Area  ****************/
 
 .hero_section {
@@ -477,6 +481,83 @@ body{
 }
 
 
+/******************** News & Blog ****************/
+
+.event1 {
+    position: relative;
+}
+
+.event_date {
+    background: #f3a90b;
+    padding: 10px;
+    width: 19%;
+    line-height: 0.1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.event_date h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.event_date p {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.entry_title a {
+    color: #757686;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.entry_title a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.entry_title2 {
+    color: #c0c1cd;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.entry_title2 i {
+    color: #19c880;
+}
+
+.entry2_content h5 {
+    font-size: 14px;
+    color: #c0c1cd;
+    font-weight: 400;
+}
+
+.entry2_content h5 i {
+    color: #19c880;
+}
+
+.entry2_title a {
+    color: #383749;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.entry2_title a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.entry2_content p {
+    font-size: 16px;
+    color: #757686;
+}
+
+
 
 
 
@@ -531,7 +612,7 @@ body{
 
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1024px){
     .counts h1 {
         font-size: 45px;
     }
@@ -539,4 +620,10 @@ body{
     .counts h1 span {
         font-size: 23px;
     }
+    .divider1 {
+        display: block;
+        visibility: hidden;
+        font-size: 0;
+    }
+    
 }
